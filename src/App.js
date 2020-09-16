@@ -5,7 +5,6 @@ export default class App extends Component {
     results: [],
   };
   componentDidMount() {
-    alert("hello");
     axios({
       method: "get",
       url: "https://gprs-api.geopits.com/workflow/invoices/",
